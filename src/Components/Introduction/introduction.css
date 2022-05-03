@@ -1,0 +1,39 @@
+.introduction__container {
+
+	position: absolute;
+
+	top: 0;
+	left: 0;
+
+	height: 828px;
+	width: 100%;
+	background-color: blue;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	background: #142c8e url(https://www.paypalobjects.com/marketing/web/shared/qrc-sms/background-swirls.png);
+	background-size: 100%;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	color: #ffffff;
+
+}
+
+.introduction__title {
+	font-size: 6.25rem;
+	line-height: 98px;
+	font-weight: 600;
+	padding: 0;
+}
+
+.device__mobile {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	max-width: 535px;
+	float: none;
+	width: 90%;
+	border-style: none;
+}
