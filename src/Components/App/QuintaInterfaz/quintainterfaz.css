@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+.area__quinta__interfaz {
+	position: absolute;
+	top: 3724px;
+	left: 0;
+	height: 284px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #f6f6f6;
+	z-index: 5;
+	text-align: center;
+}
+
+.quinta__imagen {
+	position: relative;
+	top: -50px;
+}
+
+.titulo__quinta__interfaz {
+	position: relative;
+	width: 100%;
+	font-family: 'Nunito Sans',
+		sans-serif;
+	font-weight: 900;
+	font-size: 32;
+	top: 40px;
+}
+
+.button-20 {
+	align-items: center;
+	appearance: none;
+	background-color: #5865f2;
+	border-radius: 24px;
+	border-style: none;
+	/* box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0; */
+	box-sizing: border-box;
+	/* color: #3c4043; */
+	cursor: pointer;
+	display: inline-flex;
+	fill: currentcolor;
+	/* font-family: "Google Sans", Roboto, Arial, sans-serif; */
+	font-family: 'Lato',
+		sans-serif;
+	color: white;
+	font-size: 20px;
+	font-weight: 400;
+	width: 294px;
+	height: 56px;
+	justify-content: center;
+	letter-spacing: .25px;
+	line-height: normal;
+	max-width: 100%;
+	overflow: visible;
+	padding: 2px 30px;
+	position: relative;
+	text-align: center;
+	text-transform: none;
+	/* transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms; */
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	width: auto;
+	will-change: transform, opacity;
+	z-index: 0;
+}
+
+.button-20:hover {
+	background: #7983f5;
+	color: white;
+	box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+}
+
+.svg__descarga__ultima {
+	height: 18px;
+	width: 18px;
+	margin-right: 15px;
+	/* margin-left: 15px; */
+}

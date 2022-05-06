@@ -7,6 +7,8 @@ import PrimeraInterfaz from './PrimeraInterfaz/PrimeraInterfaz.jsx'
 import SegundaInterfaz from './SegundaInterfaz/SegundaInterfaz.jsx'
 import TerceraInterfaz from './TerceraInterfaz/TerceraInterfaz.jsx'
 import CuartaInterfaz from './CuartaInterfaz/CuartaInterfaz.jsx'
+import QuintaInterfaz from './QuintaInterfaz/QuintaInterfaz.jsx'
+import Footer from './Footer/Footer.jsx'
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <SegundaInterfaz />
       <TerceraInterfaz />
       <CuartaInterfaz />
+      <QuintaInterfaz />
+      <Footer />
     </div>
   )
 }
