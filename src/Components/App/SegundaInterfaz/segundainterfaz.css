@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+.area__segunda__interfaz {
+	position: absolute;
+	top: 1306px;
+	height: 680px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #f6f6f6;
+	z-index: 5;
+}
+
+.area__segunda__interfaz__container {
+	position: relative;
+	left: 35px;
+	height: 680px;
+	width: 1260px;
+	display: flex;
+	align-items: center;
+}
+
+.titulo__segunda__interfaz {
+	width: 400px;
+	font-family: 'Nunito Sans',
+		sans-serif;
+	font-weight: 900;
+	font-size: 50;
+}
+
+.parrafo__segunda__interfaz {
+	font-family: 'Source Sans Pro',
+		sans-serif;
+	font-size: 20;
+	line-height: 30px;
+	width: 350px;
+}
+
+.area__segunda__interfaz__imagen {
+	margin-left: 150px;
+}
